@@ -3,7 +3,7 @@ import random
 import pygame
 
 pygame.init()
-
+test = 0
 screen = pygame.display.set_mode((800, 600))
 
 # Adding Background
@@ -75,3 +75,4 @@ while running:
     enemy(enemy_X, enemy_Y)
 
     pygame.display.update()
+
